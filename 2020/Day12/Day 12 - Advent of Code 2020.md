@@ -71,13 +71,5 @@ Figure out where the navigation instructions actually lead. _What is the Manhatt
 
 Your puzzle answer was `62434`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/12/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/12)

@@ -43,13 +43,5 @@ _How many passwords are valid_ according to the new interpretation of the polici
 
 Your puzzle answer was `321`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/2)

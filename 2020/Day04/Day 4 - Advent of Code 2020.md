@@ -125,13 +125,5 @@ Count the number of _valid_ passports - those that have all required fields _and
 
 Your puzzle answer was `153`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/4/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/4)

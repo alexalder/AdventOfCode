@@ -59,13 +59,5 @@ Given your starting numbers, _what will be the `30000000`th number spoken?_
 
 Your puzzle answer was `37312`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-Your puzzle input was `16,11,15,0,1,7`.
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/15)

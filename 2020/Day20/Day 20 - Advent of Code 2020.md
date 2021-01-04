@@ -277,13 +277,5 @@ _How many `#` are not part of a sea monster?_
 
 Your puzzle answer was `2209`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/20/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/20)

@@ -69,13 +69,5 @@ _What do you get if you add up the results of evaluating the homework problems u
 
 Your puzzle answer was `360029542265462`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/18/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/18)

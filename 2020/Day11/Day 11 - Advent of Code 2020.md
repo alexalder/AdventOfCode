@@ -229,13 +229,5 @@ Given the new visibility method and the rule change for occupied seats becoming 
 
 Your puzzle answer was `2208`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/11/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/11)

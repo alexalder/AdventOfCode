@@ -109,13 +109,5 @@ Execute the initialization program using an emulator for a version 2 decoder chi
 
 Your puzzle answer was `5142195937660`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/14/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/14)

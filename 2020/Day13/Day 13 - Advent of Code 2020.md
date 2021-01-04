@@ -120,13 +120,5 @@ _What is the earliest timestamp such that all of the listed bus IDs depart at of
 
 Your puzzle answer was `894954360381385`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/13/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/13)

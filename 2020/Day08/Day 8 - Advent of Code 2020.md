@@ -92,13 +92,5 @@ Fix the program so that it terminates normally by changing exactly one `jmp` (to
 
 Your puzzle answer was `1033`.
 
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, all that is left is for you to [admire your Advent calendar](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/2020).
-
-If you still want to see it, you can [get your puzzle input](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/8/input).
-
-You can also this puzzle.
-
 
 [Source](https://adventofcode.com/2020/day/8)
