@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{EB5C0ACF-D9B9-4C7E-B93B-E4A2B967ABD6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AdventOfCode2020</RootNamespace>
+    <AssemblyName>AdventOfCode2020</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="2020\Day01\Day01.cs" />
+    <Compile Include="2020\Day02\Day2.cs" />
+    <Compile Include="2020\Day03\Day03.cs" />
+    <Compile Include="2020\Day04\Day04.cs" />
+    <Compile Include="2020\Day05\Day05.cs" />
+    <Compile Include="2020\Day06\Day06.cs" />
+    <Compile Include="2020\Day07\Day07.cs" />
+    <Compile Include="2020\Day08\Day08.cs" />
+    <Compile Include="2020\Day09\Day09.cs" />
+    <Compile Include="2020\Day10\Day10.cs" />
+    <Compile Include="2020\Day11\Day11.cs" />
+    <Compile Include="2020\Day12\Day12.cs" />
+    <Compile Include="2020\Day13\Day13.cs" />
+    <Compile Include="2020\Day14\Day14.cs" />
+    <Compile Include="2020\Day15\Day15.cs" />
+    <Compile Include="2020\Day16\Day16.cs" />
+    <Compile Include="2020\Day17\Day17.cs" />
+    <Compile Include="2020\Day18\Day18.cs" />
+    <Compile Include="2020\Day19\Day19.cs" />
+    <Compile Include="2020\Day20\Day20.cs" />
+    <Compile Include="2020\Day21\Day21.cs" />
+    <Compile Include="2020\Day22\Day22.cs" />
+    <Compile Include="2020\Day23\Day23.cs" />
+    <Compile Include="2020\Day24\Day24.cs" />
+    <Compile Include="2020\Day25\Day25.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2020\" />
+    <Folder Include="2020\Day01\" />
+    <Folder Include="2020\Day02\" />
+    <Folder Include="2020\Day03\" />
+    <Folder Include="2020\Day04\" />
+    <Folder Include="2020\Day05\" />
+    <Folder Include="2020\Day06\" />
+    <Folder Include="2020\Day07\" />
+    <Folder Include="2020\Day08\" />
+    <Folder Include="2020\Day09\" />
+    <Folder Include="2020\Day10\" />
+    <Folder Include="2020\Day11\" />
+    <Folder Include="2020\Day12\" />
+    <Folder Include="2020\Day13\" />
+    <Folder Include="2020\Day14\" />
+    <Folder Include="2020\Day15\" />
+    <Folder Include="2020\Day16\" />
+    <Folder Include="2020\Day17\" />
+    <Folder Include="2020\Day18\" />
+    <Folder Include="2020\Day19\" />
+    <Folder Include="2020\Day20\" />
+    <Folder Include="2020\Day21\" />
+    <Folder Include="2020\Day22\" />
+    <Folder Include="2020\Day23\" />
+    <Folder Include="2020\Day24\" />
+    <Folder Include="2020\Day25\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2020\Day01\input.txt" />
+    <None Include="2020\Day02\input.txt" />
+    <None Include="2020\Day03\input.txt" />
+    <None Include="2020\Day04\input.txt" />
+    <None Include="2020\Day05\input.txt" />
+    <None Include="2020\Day06\input.txt" />
+    <None Include="2020\Day07\input.txt" />
+    <None Include="2020\Day08\input.txt" />
+    <None Include="2020\Day09\input.txt" />
+    <None Include="2020\Day10\input.txt" />
+    <None Include="2020\Day11\input.txt" />
+    <None Include="2020\Day12\input.txt" />
+    <None Include="2020\Day13\input.txt" />
+    <None Include="2020\Day14\input.txt" />
+    <None Include="2020\Day15\input.txt" />
+    <None Include="2020\Day16\input.txt" />
+    <None Include="2020\Day17\input.txt" />
+    <None Include="2020\Day18\input.txt" />
+    <None Include="2020\Day19\input.txt" />
+    <None Include="2020\Day20\input.txt" />
+    <None Include="2020\Day21\input.txt" />
+    <None Include="2020\Day22\input.txt" />
+    <None Include="2020\Day23\input.txt" />
+    <None Include="2020\Day24\input.txt" />
+    <None Include="2020\Day25\input.txt" />
+    <None Include="2020\Day01\Day 1 - Advent of Code 2020.md" />
+    <None Include="2020\Day02\Day 2 - Advent of Code 2020.md" />
+    <None Include="2020\Day03\Day 3 - Advent of Code 2020.md" />
+    <None Include="2020\Day04\Day 4 - Advent of Code 2020.md" />
+    <None Include="2020\Day05\Day 5 - Advent of Code 2020.md" />
+    <None Include="2020\Day06\Day 6 - Advent of Code 2020.md" />
+    <None Include="2020\Day07\Day 7 - Advent of Code 2020.md" />
+    <None Include="2020\Day08\Day 8 - Advent of Code 2020.md" />
+    <None Include="2020\Day09\Day 9 - Advent of Code 2020.md" />
+    <None Include="2020\Day10\Day 10 - Advent of Code 2020.md" />
+    <None Include="2020\Day11\Day 11 - Advent of Code 2020.md" />
+    <None Include="2020\Day12\Day 12 - Advent of Code 2020.md" />
+    <None Include="2020\Day13\Day 13 - Advent of Code 2020.md" />
+    <None Include="2020\Day14\Day 14 - Advent of Code 2020.md" />
+    <None Include="2020\Day15\Day 15 - Advent of Code 2020.md" />
+    <None Include="2020\Day16\Day 16 - Advent of Code 2020.md" />
+    <None Include="2020\Day17\Day 17 - Advent of Code 2020.md" />
+    <None Include="2020\Day18\Day 18 - Advent of Code 2020.md" />
+    <None Include="2020\Day19\Day 19 - Advent of Code 2020.md" />
+    <None Include="2020\Day20\Day 20 - Advent of Code 2020.md" />
+    <None Include="2020\Day21\Day 21 - Advent of Code 2020.md" />
+    <None Include="2020\Day22\Day 22 - Advent of Code 2020.md" />
+    <None Include="2020\Day23\Day 23 - Advent of Code 2020.md" />
+    <None Include="2020\Day24\Day 24 - Advent of Code 2020.md" />
+    <None Include="2020\Day25\Day 25 - Advent of Code 2020.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
