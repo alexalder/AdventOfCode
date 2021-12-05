@@ -63,7 +63,7 @@ namespace AdventOfCode2020
                 {
                     return (RunProgram(newInput));
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     continue;
                 }

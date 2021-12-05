@@ -62,6 +62,11 @@ public static class Utils
         return result;
     }
 
+    public static int BinaryToDecimal(string a)
+    {
+        return Convert.ToInt32(a, 2);
+    }
+
     public static string GetFolder(int year, int day)
     {
         string[] separators = { "bin" };
@@ -352,6 +357,11 @@ public class Grid
                         return false;
             return true;
         }
+    }
+
+    public override int GetHashCode()
+    {
+        return base.GetHashCode();
     }
 
     public Grid Clone()

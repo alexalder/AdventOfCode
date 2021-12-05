@@ -127,7 +127,7 @@ namespace AdventOfCode2020
                 }
                 return false;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }

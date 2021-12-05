@@ -287,6 +287,11 @@ namespace AdventOfCode2020
             return false;
         }
 
+        public override int GetHashCode()
+        {
+            return this.id;
+        }
+
         public Photo Clone()
         {
             return new Photo(this.id, this.content);
