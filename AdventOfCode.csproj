@@ -1,185 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9FFAB8AE-D1A8-4727-A3A5-5047721BB705}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdventOfCode</RootNamespace>
-    <AssemblyName>AdventOfCode</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
   </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <None Remove="2022\Day03\" />
+    <None Remove="2022\Day02\" />
+    <None Remove="2022\Day04\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2019\Day10\Day10.cs" />
-    <Compile Include="2019\Day11\Day11.cs" />
-    <Compile Include="2019\Day12\Day12.cs" />
-    <Compile Include="2019\Day13\Day13.cs" />
-    <Compile Include="2019\Day14\Day14.cs" />
-    <Compile Include="2019\Day15\Day15.cs" />
-    <Compile Include="2019\Day01\Day01.cs" />
-    <Compile Include="2019\Day24\Day24.cs" />
-    <Compile Include="2019\Day02\Day02.cs" />
-    <Compile Include="2019\Day03\Day03.cs" />
-    <Compile Include="2019\Day04\Day04.cs" />
-    <Compile Include="2019\Day05\Day05.cs" />
-    <Compile Include="2019\Day06\Day06.cs" />
-    <Compile Include="2019\Day07\Day07.cs" />
-    <Compile Include="2019\Day08\Day08.cs" />
-    <Compile Include="2019\Day09\Day09.cs" />
-    <Compile Include="2019\IntCodeProgram.cs" />
-    <Compile Include="2019\IntCodeProgramLong.cs" />
-    <Compile Include="2019\OldUtils.cs" />
-    <Compile Include="2020\Day01\Day01.cs" />
-    <Compile Include="2020\Day02\Day2.cs" />
-    <Compile Include="2020\Day03\Day03.cs" />
-    <Compile Include="2020\Day04\Day04.cs" />
-    <Compile Include="2020\Day05\Day05.cs" />
-    <Compile Include="2020\Day06\Day06.cs" />
-    <Compile Include="2020\Day07\Day07.cs" />
-    <Compile Include="2020\Day08\Day08.cs" />
-    <Compile Include="2020\Day09\Day09.cs" />
-    <Compile Include="2020\Day10\Day10.cs" />
-    <Compile Include="2020\Day11\Day11.cs" />
-    <Compile Include="2020\Day12\Day12.cs" />
-    <Compile Include="2020\Day13\Day13.cs" />
-    <Compile Include="2020\Day14\Day14.cs" />
-    <Compile Include="2020\Day15\Day15.cs" />
-    <Compile Include="2020\Day16\Day16.cs" />
-    <Compile Include="2020\Day17\Day17.cs" />
-    <Compile Include="2020\Day18\Day18.cs" />
-    <Compile Include="2020\Day19\Day19.cs" />
-    <Compile Include="2020\Day20\Day20.cs" />
-    <Compile Include="2020\Day21\Day21.cs" />
-    <Compile Include="2020\Day22\Day22.cs" />
-    <Compile Include="2020\Day23\Day23.cs" />
-    <Compile Include="2020\Day24\Day24.cs" />
-    <Compile Include="2020\Day25\Day25.cs" />
-    <Compile Include="2021\Day01\Day01.cs" />
-    <Compile Include="2021\Day02\Day02.cs" />
-    <Compile Include="2021\Day03\Day03.cs" />
-    <Compile Include="2021\Day04\Day04.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils.cs" />
+    <Folder Include="2022\Day03\" />
+    <Folder Include="2022\Day02\" />
+    <Folder Include="2022\Day04\" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="2020\Day01\Day 1 - Advent of Code 2020.md" />
-    <None Include="2020\Day02\Day 2 - Advent of Code 2020.md" />
-    <None Include="2020\Day03\Day 3 - Advent of Code 2020.md" />
-    <None Include="2020\Day04\Day 4 - Advent of Code 2020.md" />
-    <None Include="2020\Day05\Day 5 - Advent of Code 2020.md" />
-    <None Include="2020\Day06\Day 6 - Advent of Code 2020.md" />
-    <None Include="2020\Day07\Day 7 - Advent of Code 2020.md" />
-    <None Include="2020\Day08\Day 8 - Advent of Code 2020.md" />
-    <None Include="2020\Day09\Day 9 - Advent of Code 2020.md" />
-    <None Include="2020\Day10\Day 10 - Advent of Code 2020.md" />
-    <None Include="2020\Day11\Day 11 - Advent of Code 2020.md" />
-    <None Include="2020\Day12\Day 12 - Advent of Code 2020.md" />
-    <None Include="2020\Day13\Day 13 - Advent of Code 2020.md" />
-    <None Include="2020\Day14\Day 14 - Advent of Code 2020.md" />
-    <None Include="2020\Day15\Day 15 - Advent of Code 2020.md" />
-    <None Include="2020\Day16\Day 16 - Advent of Code 2020.md" />
-    <None Include="2020\Day17\Day 17 - Advent of Code 2020.md" />
-    <None Include="2020\Day18\Day 18 - Advent of Code 2020.md" />
-    <None Include="2020\Day19\Day 19 - Advent of Code 2020.md" />
-    <None Include="2020\Day20\Day 20 - Advent of Code 2020.md" />
-    <None Include="2020\Day21\Day 21 - Advent of Code 2020.md" />
-    <None Include="2020\Day22\Day 22 - Advent of Code 2020.md" />
-    <None Include="2020\Day23\Day 23 - Advent of Code 2020.md" />
-    <None Include="2020\Day24\Day 24 - Advent of Code 2020.md" />
-    <None Include="2020\Day25\Day 25 - Advent of Code 2020.md" />
-    <None Include="2021\Day01\Day 1 - Advent of Code 2020.md" />
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="2019\Day10\input.txt" />
-    <Content Include="2019\Day10\testInput1.txt" />
-    <Content Include="2019\Day10\testInput2.txt" />
-    <Content Include="2019\Day10\testInput3.txt" />
-    <Content Include="2019\Day11\input.txt" />
-    <Content Include="2019\Day12\input.txt" />
-    <Content Include="2019\Day12\testInput1.txt" />
-    <Content Include="2019\Day13\input.txt" />
-    <Content Include="2019\Day14\input.txt" />
-    <Content Include="2019\Day14\testInput1.txt" />
-    <Content Include="2019\Day14\testInput2.txt" />
-    <Content Include="2019\Day14\testInput3.txt" />
-    <Content Include="2019\Day14\testInput4.txt" />
-    <Content Include="2019\Day15\input.txt" />
-    <Content Include="2019\Day01\input.txt" />
-    <Content Include="2019\Day24\input.txt" />
-    <Content Include="2019\Day02\input.txt" />
-    <Content Include="2019\Day03\input.txt" />
-    <Content Include="2019\Day05\input.txt" />
-    <Content Include="2019\Day06\input.txt" />
-    <Content Include="2019\Day07\input.txt" />
-    <Content Include="2019\Day08\input.txt" />
-    <Content Include="2019\Day09\input.txt" />
-    <Content Include="2020\Day01\input.txt" />
-    <Content Include="2020\Day02\input.txt" />
-    <Content Include="2020\Day03\input.txt" />
-    <Content Include="2020\Day04\input.txt" />
-    <Content Include="2020\Day05\input.txt" />
-    <Content Include="2020\Day06\input.txt" />
-    <Content Include="2020\Day07\input.txt" />
-    <Content Include="2020\Day08\input.txt" />
-    <Content Include="2020\Day09\input.txt" />
-    <Content Include="2020\Day10\input.txt" />
-    <Content Include="2020\Day11\input.txt" />
-    <Content Include="2020\Day12\input.txt" />
-    <Content Include="2020\Day13\input.txt" />
-    <Content Include="2020\Day14\input.txt" />
-    <Content Include="2020\Day15\input.txt" />
-    <Content Include="2020\Day16\input.txt" />
-    <Content Include="2020\Day17\input.txt" />
-    <Content Include="2020\Day18\input.txt" />
-    <Content Include="2020\Day19\input.txt" />
-    <Content Include="2020\Day20\input.txt" />
-    <Content Include="2020\Day21\input.txt" />
-    <Content Include="2020\Day22\input.txt" />
-    <Content Include="2020\Day23\input.txt" />
-    <Content Include="2020\Day24\input.txt" />
-    <Content Include="2020\Day25\input.txt" />
-    <Content Include="2021\Day01\input.txt" />
-    <Content Include="2021\Day01\testInput0.txt" />
-    <Content Include="2021\Day02\input.txt" />
-    <Content Include="2021\Day03\input.txt" />
-    <Content Include="2021\Day03\testInput0.txt" />
-    <Content Include="2021\Day04\input.txt" />
-    <Content Include="2021\Day04\testInput0.txt" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

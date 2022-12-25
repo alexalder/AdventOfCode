@@ -1,0 +1,7 @@
+﻿Sostanzialmente l'advent rivolve intorno a queste cose:
+
+- Algoritmo Breadth-first search quando ci sono da cercare dei percorsi
+https://en.wikipedia.org/wiki/Breadth-first_search
+
+- Algoritmo di bisezione quando c'è da trovare il parametro che risolve una funzione
+L'ho aggiunto agli utils
